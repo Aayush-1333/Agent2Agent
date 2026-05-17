@@ -2,10 +2,9 @@ from a2a.helpers import new_text_message
 from a2a.server.agent_execution import AgentExecutor
 from a2a.server.agent_execution.context import RequestContext
 from a2a.server.events.event_queue import EventQueue
-from pydantic import BaseModel
 
 
-class GreetingAgent(BaseModel):
+class GreetingAgent:
     """Greeting agent that returns a greeting"""
 
     async def invoke(self) -> str:
