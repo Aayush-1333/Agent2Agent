@@ -93,7 +93,7 @@ class HostAgent:
         """Main instructions for the host agent"""
 
         return f"""
-        **Role:** You are an orcestrator agent whose task is to understand the user's query and
+        **Role:** You are an orchestrator agent whose task is to understand the user's query and
         appropriately delegate tasks to specialized remote agents.
 
         **Core Directives**
